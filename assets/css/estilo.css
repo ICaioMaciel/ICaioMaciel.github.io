@@ -1,0 +1,166 @@
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, #d92b4c, #720238c7);
+    overflow: hidden;
+    background-color: #D92B4B;
+    overflow: auto;
+}
+
+.dona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+h1 {
+    margin: 10vh auto 1vh;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 7px #F24B78;
+}
+
+h2 {
+    margin: auto 0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.p1{
+    padding: 10px;
+    width: 480px;
+    text-justify: inter-word;
+    line-height: 1.3;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    margin: auto;
+    list-style: none;
+}
+
+.nois {
+    display: flex;
+    margin: 10vh auto;
+}
+
+p{
+    padding: 10px;
+    width: 480px;
+    text-justify: inter-word;
+    line-height: 1.3;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    overflow: auto;
+}
+
+.conteudo-princ {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 30rem;
+    border-radius: 2vh;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+    padding-left: 0;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.btn {
+    padding: 6px 13px;
+    background-color: #FECCFF;
+    border-color: #FECCFF;
+    color: #720238;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.image {
+    margin: auto;
+    width: 45vh;
+    padding: 15px 0;
+}
+
+#btnNao {
+    transition: all 0.5s ease;
+}
+
+#meuAlert {
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.alerta p{
+    display: flex;
+    align-items: center;
+}
+
+/* container */
+.hearts-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* coração */
+.heart {
+    position: absolute;
+    bottom: -20px;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 1);
+    transform: rotate(45deg);
+    animation: subir linear forwards;
+}
+
+/* formato */
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -50%;
+    left: 0;
+}
+
+.heart::after {
+    left: -50%;
+    top: 0;
+}
+
+/* animação */
+@keyframes subir {
+    0% {
+        transform: translateY(10vh) scale(1) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-110vh) scale(1.2) rotate(45deg);
+        opacity: .3;
+    }
+}

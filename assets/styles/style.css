@@ -66,13 +66,6 @@ h1 {
     margin: 0;
 }
 
-h2 {
-    font-size: 1.6rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-}
 
 
 .title-font {
@@ -280,4 +273,40 @@ h3 {
 
 .main-card_exp h2 {
     margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main-card_exp h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-left: 0.4rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main-card_exp ul {
+    padding: .8rem;
+}
+
+span {
+    font-weight: 400;
+}
+
+.exp {
+    margin: 0 0.5rem 0.5rem 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    letter-spacing: 1.2;
+    text-align: justify;
+    font-family: var(--sub-font);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: auto;
+    gap: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }

@@ -1,65 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Aula 02</title>
-
-    <style>
-        p {
-            font-size: 1.6em;
-        }
-
-        a {
-            margin-left: 10px;
-        }
-
-        table {
-            margin: 10px;
-            padding: 10px;
-        }
-
-        iframe {
-            margin: 10px;
-        }
-    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
 </head>
 <body>
-    <h1>Site massa</h1>
+    <div class="wrappercontainer">
+        <header class="header ">
+            <div>
+                <a href="https://www.linkedin.com/in/ivson-caio-a86005340/" target = "_blank" class="header-title title-font">Ivson Caio</a>
+            </div>
 
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis, est cum modi ipsa similique reiciendis ut? Nobis placeat odio aspernatur nisi consectetur molestiae beatae?</h2>
+            <nav class="header-nav">
+                <a href="#abtme">Sobre Mim</a>
+                <a href="#exp">Experiência</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Projetos</a>
+            </nav>
+            <div class="header-socials">
+                <a href="https://github.com/ICaioMaciel" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ivson-caio-a86005340/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/ivson.maciel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+        </header>
+    </div>
     
-    <p>Apresentação</p>
+    <main class="main container content-container">
+        <div id="content" class="margin">
+            <aside class="aside">
+                <img class = "img" src="../assets/images/Perfil.jpeg" alt="uma foto">
+                <ul>
+                    <li><p class="fa-local">Maceió - Al</p></li>
+                    <li><p class="fa-telefone">(82) 9 8839-7792</p></li>
+                    <li><p href="" class="fa-email">Ivson.caio762@gmail.com</p></li>
+                </ul>
+                <a class= "aside-curriculum" href="../assets/files/Curriculo Ivson Caio (3).pdf" target="_blank">Curriculo</a>
+            </aside>
+            <section class="card-abtme">
+                <h2 class="title-font">Olá, sou Ivson!</h2>
+                <p>
+                    Sou estudante da área de Tecnologia da Informação, com experiência em suporte técnico e interesse em desenvolvimento web e programação. Tenho conhecimento em HTML, CSS, JavaScript e Python, além de estar constantemente aprimorando minhas habilidades por meio de estudos e projetos práticos.<br>
+                    Busco oportunidades para crescer profissionalmente, adquirir experiência na área de desenvolvimento e contribuir com projetos que me permitam evoluir cada vez mais como profissional de tecnologia.
+                </p>
+            </section>
+        </div>
 
-    <ul>
-        <li>Lorem, ipsum.</li>
-        <li>Lorem.</li>
-        <li>Lorem, ipsum dolor.</li>
-    </ul>
-
-    <hr>
-
-        <a href="https://github.com/ICaioMaciel" target="_blank">Github</a>
-
-    <hr>
-
-    <table>
-        <tr>
-            <th>H1</th>
-            <th>H2</th>
-            <th>H3</th>
-        </tr>
-        
-        <tr>
-            <td>D1</td>
-            <td>D2</td>
-            <td>D3</td>
-        </tr>
-
-    </table>
-
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22248.43512627583!2d-35.71047803634799!3d-9.680626801694979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x701453095aa794b%3A0x72187cdb34b06ed1!2sPiscinas%20Naturais%20de%20Paju%C3%A7ara!5e0!3m2!1spt-BR!2sbr!4v1778113680006!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+        <div class="main-cards">
+            <section class="main-card_exp  margin">
+                <h2 id="exp" class="title-font">Experiência Profissional e Educação</h2>
+                <h3 class="title-font">Experiência</h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                <h3 class="title-font">Educação</h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+            </section>
+            <section class="main-card_exp margin">
+                <h2 id="skills" class="title-font">Habilidades</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="main-card_exp">
+                <h2 id="projects" class="title-font">Projetos</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>nao se</p>
+    </footer>
 </body>
 </html>
